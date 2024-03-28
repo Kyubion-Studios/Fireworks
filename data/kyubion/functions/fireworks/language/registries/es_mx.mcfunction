@@ -1,0 +1,2 @@
+# Español (México)
+execute if data storage fireworks:settings {displayLabels:{daysWeek:["Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado"],daysMonth:["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Deciembre"],daysOrdinal:["ro","do","er","to"]}} run return 1

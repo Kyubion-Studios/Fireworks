@@ -1,0 +1,85 @@
+/*
+This file is not recognized by Minecraft. It is here for internal use.
+It's recommended that settings are edited here before being put in the game, for better readability.
+Type "data modify storage fireworks:settings", and paste the settings in a Command Block.
+*/
+{
+    "displaySeparatorsFormat": [
+        ", ",
+        ":",
+        " ",
+        " | ",
+        " ",
+        ", "
+    ],
+    "displayLabels": {
+        "daysWeek": [
+                "Sunday",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+            ],
+            "daysOrdinal": [
+                    "st",
+                    "nd",
+                    "rd",
+                    "th"
+            ],
+            "ticksFormat": [
+                    "AM",
+                    "PM"
+            ],
+            "daysMonth": [
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December"
+            ]
+    },
+    "applyMidnightAdjustment": true,
+    "displaySequenceFormat": [
+        {
+            "additions": ["",""],
+            "shortened": false,
+            "type": "days.Weeks"
+        },
+        {   "additions": ["",""],
+            "type": "ticks.Hours"
+        },
+        { 
+            "additions": ["",""],
+            "type": "ticks.Minutes"
+        },
+        {
+            "additions": ["",""],
+            "type": "ticks.Format",
+            "hourFormat": 12
+        },
+        {
+            "additions": ["",""],
+            "valueDisplay": false,
+            "shortened": false,
+            "type": "days.Months"
+        },
+        {
+            "additions": ["",""],
+            "type": "days.Days",
+            "ordinalNumbering": true
+        },
+        {
+            "additions": ["",""],
+            "type": "days.Years"
+        }
+    ]
+}

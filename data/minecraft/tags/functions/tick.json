@@ -1,0 +1,12 @@
+{
+    "values": [
+        "kyubion:fireworks/display/fields/dragging",
+        "fireworks:registries/settings/midnight/days",
+        "fireworks:registries/operations",
+        "#fireworks:arrangement",
+        "fireworks:events/countdown/operations",
+        "fireworks:events/music/play",
+        "fireworks:registries/display",
+        "fireworks:events/fireworks/filter"
+    ]
+}

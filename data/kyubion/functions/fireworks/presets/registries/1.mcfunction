@@ -1,0 +1,2 @@
+# Tue, 12:30 AM | 17/05/2009
+execute if data storage fireworks:settings {displaySeparatorsFormat:[", ",":",""," | ","/","/"],displaySequenceFormat:[{"shortened":false,"additions":["",""],"type":"days.Weeks"},{"additions":["",""],"type":"ticks.Hours"},{"additions":["",""],"type":"ticks.Minutes"},{"additions":["",""],"type":"ticks.Format","hourFormat":24s},{"additions":["",""],"type":"days.Days","ordinalNumbering":false},{"valueDisplay":true,"shortened":false,"additions":["",""],"type":"days.Months"},{"additions":["",""],"type":"days.Years"}]} run return 1

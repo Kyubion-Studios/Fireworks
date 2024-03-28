@@ -1,0 +1,10 @@
+{
+    "values": [
+        "fireworks:registries/arrangement/minutes",
+        "fireworks:registries/arrangement/hours",
+        "fireworks:registries/arrangement/days",
+        "fireworks:registries/arrangement/weeks",
+        "fireworks:registries/arrangement/months",
+        "fireworks:registries/arrangement/years"
+    ]
+}

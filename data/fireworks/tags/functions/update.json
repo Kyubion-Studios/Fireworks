@@ -1,0 +1,10 @@
+{
+    "values": [
+        "fireworks:operations/hour/minutes",
+        "fireworks:operations/hour/hours",
+        "fireworks:operations/date/days",
+        "fireworks:operations/date/weeks",
+        "fireworks:operations/date/months",
+        "fireworks:operations/date/years"
+    ]
+}

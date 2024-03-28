@@ -1,0 +1,41 @@
+[
+  {
+    "condition": "minecraft:value_check",
+    "value": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "#totalDays.returnMonths"
+      },
+      "score": "fireworks.operations"
+    },
+    "range": 1
+  },
+  {
+    "condition": "minecraft:value_check",
+    "value": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "#totalDays.returnDays"
+      },
+      "score": "fireworks.operations"
+    },
+    "range": 1
+  },
+  {
+    "condition": "minecraft:value_check",
+    "value": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "#totalTicks.adjustmentCheck"
+      },
+      "score": "fireworks.operations"
+    },
+    "range": {
+      "min": 18000,
+      "max": 22000
+    }
+  }
+]
