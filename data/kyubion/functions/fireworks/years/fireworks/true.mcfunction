@@ -1,2 +1,2 @@
-data modify storage fireworks:settings enableFireworksShow set value true
+data modify storage kyubion:fireworks enableFireworksShow set value true
 function kyubion:fireworks/years

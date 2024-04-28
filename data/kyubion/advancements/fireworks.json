@@ -1,17 +1,17 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:player_head",
-        "nbt": "{SkullOwner: 'nearznn'}"
+        "id": "minecraft:firework_rocket"
       },
       "title": {
-        "text": "Nearznn"
+        "text": "Fireworks",
+        "color": "#1523A4"
       },
       "description": "",
       "show_toast": true,
       "announce_to_chat": false
     },
-    "parent": "global:root",
+    "parent": "kyubion:root",
     "criteria": {
       "tick": {
         "trigger": "minecraft:tick"

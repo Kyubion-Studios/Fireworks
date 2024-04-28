@@ -1,41 +1,44 @@
-[
-  {
-    "condition": "minecraft:value_check",
-    "value": {
-      "type": "minecraft:score",
-      "target": {
-        "type": "minecraft:fixed",
-        "name": "#totalDays.returnMonths"
+{
+  "condition": "all_of",
+  "terms": [
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#totalDays.returnMonths"
+        },
+        "score": "fireworks.operations"
       },
-      "score": "fireworks.operations"
+      "range": 1
     },
-    "range": 1
-  },
-  {
-    "condition": "minecraft:value_check",
-    "value": {
-      "type": "minecraft:score",
-      "target": {
-        "type": "minecraft:fixed",
-        "name": "#totalDays.returnDays"
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#totalDays.returnDays"
+        },
+        "score": "fireworks.operations"
       },
-      "score": "fireworks.operations"
+      "range": 1
     },
-    "range": 1
-  },
-  {
-    "condition": "minecraft:value_check",
-    "value": {
-      "type": "minecraft:score",
-      "target": {
-        "type": "minecraft:fixed",
-        "name": "#totalTicks.adjustmentCheck"
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#totalTicks.adjustmentCheck"
+        },
+        "score": "fireworks.operations"
       },
-      "score": "fireworks.operations"
-    },
-    "range": {
-      "min": 18000,
-      "max": 24000
+      "range": {
+        "min": 18000,
+        "max": 24000
+      }
     }
-  }
-]
+  ]
+}

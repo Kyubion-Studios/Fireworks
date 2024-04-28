@@ -1,11 +1,11 @@
 {
     "display": {
-        "title": "Installed Datapacks",
+        "title": "Kyubion Studios",
         "description": "",
         "icon": {
-            "item": "minecraft:knowledge_book"
+            "id": "minecraft:structure_block"
         },
-        "background": "minecraft:textures/block/gray_concrete.png",
+        "background": "minecraft:textures/block/loom_bottom.png",
         "show_toast": false,
         "announce_to_chat": false
     },

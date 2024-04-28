@@ -1,5 +1,5 @@
 # Settings
-execute if data storage fireworks:settings {enableCountdown:0b} run return 0
+execute if data storage kyubion:fireworks {enableCountdown:0b} run return 0
 
 # Predicate
 execute unless predicate fireworks:events/countdown/start run return run scoreboard players reset #event.yearCountdown fireworks.operations

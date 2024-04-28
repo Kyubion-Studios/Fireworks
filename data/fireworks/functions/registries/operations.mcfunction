@@ -1,5 +1,2 @@
-# Force
-execute if score #isAutoUpdateEnabled fireworks.operations matches 1 run function #fireworks:update
-
-# Conditioned
+# Sequence
 return run function #fireworks:update

@@ -2,7 +2,7 @@
 playsound minecraft:ui.button.click master @s ~ ~ ~ 0.1 1
 
 # Header
-tellraw @s [{"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n====================================","color":"gold"}]
+tellraw @s [{"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n====================================","color":"gold"}]
 
 # Title
 tellraw @s [{"text":"\u1d0b\u028f\u1d1c\u0299\u026a\u1d0f\u0274 s\u1d1b\u1d1c\u1d05\u026a\u1d0fs","bold":true,"color":"yellow"},{"text":"\n====================================","bold":false,"color":"gold"}]
