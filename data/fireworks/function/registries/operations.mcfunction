@@ -1,2 +1,2 @@
 # Sequence
-return run function #fireworks:update
+  return run function #fireworks:update
