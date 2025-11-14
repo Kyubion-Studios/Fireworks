@@ -1,4 +1,4 @@
-execute unless predicate fireworks:events/countdown/start run title @a actionbar [\
+execute if data storage kyubion:fireworks {enableDisplay:1b} unless predicate fireworks:events/countdown/start run title @a actionbar [\
   {\
     nbt:"displaySequenceFormat[0].additions[0]",\
     storage:"kyubion:fireworks",\

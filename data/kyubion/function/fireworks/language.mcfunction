@@ -1,6 +1,3 @@
-# Sound
-	playsound minecraft:ui.button.click master @s ~ ~ ~ 0.1 1
-
 # Header
 	tellraw @s [\
 		{\
@@ -140,7 +137,7 @@
 
     # Custom
         # Unselected
-			execute if function #kyubion:fireworks/language run tellraw @s [\
+			execute if function #kyubion:language run tellraw @s [\
 				{\
 					text:"→ Custom",\
 					color:"dark_green",\
@@ -152,7 +149,7 @@
 			]
 
         # Selected
-			execute unless function #kyubion:fireworks/language run tellraw @s [\
+			execute unless function #kyubion:language run tellraw @s [\
 				{\
 					text:"→ Custom",\
 					color:"gray",\

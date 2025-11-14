@@ -1,15 +1,28 @@
 {
-  "pack": {
-    "pack_format": 71,
-    "supported_formats": {
-      "min_inclusive": 45,
-      "max_inclusive": 71
-    },
-    "description": [
-      { "text": "Fireworks", "color": "#1523A4" },
-      { "text": " | ", "color": "dark_gray" },
-      { "text": "ʙʏ ", "color": "white" },
-      { "text": "Kyubion Studios", "color": "#6E0F83" }
-    ]
-  }
+	"pack": {
+		"description": [
+			{
+				"text": "Fireworks",
+				"color": "#1523A4"
+			},
+			{
+				"text": " | ",
+				"color": "gray"
+			},
+			{
+				"text": "ʙʏ ",
+				"color": "white"
+			},
+			{
+				"text": "Kyubion Studios",
+				"color": "#6E0F83"
+			}
+		],
+		"min_format": [
+			88
+		],
+		"max_format": [
+			88
+		]
+	}
 }

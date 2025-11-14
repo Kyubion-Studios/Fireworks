@@ -1,6 +1,3 @@
-# Sound
-    playsound minecraft:ui.button.click master @s ~ ~ ~ 0.1 1
-
 # Header
     tellraw @s [\
         {\

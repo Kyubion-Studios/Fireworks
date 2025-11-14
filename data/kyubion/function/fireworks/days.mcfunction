@@ -1,6 +1,3 @@
-# Sound
-    playsound minecraft:ui.button.click master @s ~ ~ ~ 0.1 1
-
 # Header
     tellraw @s [\
         {\
@@ -54,7 +51,7 @@
                 },\
                 hover_event:{\
                     action:"show_text",\
-                    value:"Activates ordinal numbering for the day label. So \"17\" becomes \"17th\" for example."\
+                    value:"Enables ordinal numbering for the day label. So \"17\" becomes \"17th\" for example."\
                 }\
             }\
         ]
@@ -74,7 +71,7 @@
                 },\
                 hover_event:{\
                     action:"show_text",\
-                    value:"Activates ordinal numbering for the day label. So \"17\" becomes \"17th\" for example."\
+                    value:"Enables ordinal numbering for the day label. So \"17\" becomes \"17th\" for example."\
                 }\
             }\
         ]

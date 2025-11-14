@@ -1,6 +1,3 @@
-# Sound
-    playsound minecraft:ui.button.click master @s ~ ~ ~ 0.1 1
-
 # Header
     tellraw @s [\
         {\
@@ -17,7 +14,7 @@
             color:"yellow"\
         },\
         {\
-            text:"\n"
+            text:"\n"\
         },\
         {\
             text:"====================================",\

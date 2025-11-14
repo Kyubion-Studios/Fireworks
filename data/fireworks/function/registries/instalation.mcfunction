@@ -92,6 +92,7 @@
         data modify storage kyubion:fireworks enableFireworksShow set value 1b
         data modify storage kyubion:fireworks enableCountdown set value 1b
         data modify storage kyubion:fireworks enableMusic set value 1b
+        data modify storage kyubion:fireworks enableDisplay set value 1b
 
     ## Placeholders
         data modify storage kyubion:fireworks Placeholders.labelExamples set value [\
